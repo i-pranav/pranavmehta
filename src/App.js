@@ -1,7 +1,11 @@
+import Home from "./components/Home";
+import NavBar from "./components/NavBar"
+
 function App() {
   return (
-    <div >
-      <h1 className="font-signature"> Pranav Mehta!</h1>
+    <div>
+      <NavBar/>
+      <Home/>
     </div>
   );
 }
